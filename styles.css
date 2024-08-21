@@ -1,9 +1,20 @@
 /*  your css code here. If applicable */
+main{
+	background-color: #444;
+	border-radius: 10px;
+	
+}
 #photo-heading{
 	text-align: center;
 }
-#animal-photos > img{
+#animal-photos {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap : 10px;
+	padding:10px;
+}
+img{
+	width: 200px;
+	height: 180px;
+	border-radius: 10px;
 }
